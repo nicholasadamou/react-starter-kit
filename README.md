@@ -6,12 +6,12 @@ A React-based starter project that is based on a tried and true folder and compo
 
 ### Requirements
 
--   [Node.js](https://nodejs.org/en/)
--   [Yarn](https://yarnpkg.com/en/) (recommended)
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/en/) (recommended)
 
 ### Steps
 
-Starting the front-end and *Netlify* serverless (λ) functions:
+Starting the front-end and _Netlify_ serverless (λ) functions:
 
 ```bash
 git clone https://github.com/nicholasadamou/react-starter-kit
@@ -28,7 +28,7 @@ This project uses the following technologies:
 
 - [**React.js**](https://reactjs.org/) - For building the interface along with:
   - [**Styled-Components**](https://www.styled-components.com/) - for styling.
-  -[**instant.page**](https://instant.page/) - Make your site's pages instant in 1 minute and improve your conversion rate by 1%.
+  - [**instant.page**](https://instant.page/) - Make your site's pages instant in 1 minute and improve your conversion rate by 1%.
 
 **The Back-End**:
 
