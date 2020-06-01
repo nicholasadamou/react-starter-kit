@@ -11,13 +11,7 @@ A React-based starter project that is based on a tried and true folder and compo
 
 ### Steps
 
-Run the latest Docker image on <http://localhost:8080>
-
-```bash
-docker run --rm -p 8080:80 nicholasadamou/react-starter-kit:latest
-```
-
-Or run the live-reload server on <http://localhost:3000>
+Run the live-reload server on <http://localhost:3000>
 
 ```bash
 make dev
