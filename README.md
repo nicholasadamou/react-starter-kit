@@ -1,4 +1,4 @@
-# React Starter Kit [![Build Status](https://travis-ci.org/nicholasadamou/react-starter-kit.svg?branch=master)](https://travis-ci.org/nicholasadamou/react-starter-kit)
+# React Starter Kit [![Build Status](https://travis-ci.org/nicholasadamou/react-starter-kit.svg?branch=master)](https://travis-ci.org/nicholasadamou/react-starter-kit) [![CircleCI](https://circleci.com/gh/nicholasadamou/react-starter-kit.svg?style=svg)](https://circleci.com/gh/nicholasadamou/react-starter-kit)
 
 A React-based starter project that is based on a tried and true folder and component structure that I have used many times in the past.
 
@@ -11,13 +11,22 @@ A React-based starter project that is based on a tried and true folder and compo
 
 ### Steps
 
-Starting the front-end and _Netlify_ serverless (λ) functions:
+Run the latest Docker image on <http://localhost:8080>
 
 ```bash
-git clone https://github.com/nicholasadamou/react-starter-kit
-cd react-starter-kit
-npx yarn install
-npx yarn netlify
+docker run --rm -p 8080:80 nicholasadamou/react-starter-kit:latest
+```
+
+Or run the live-reload server on <http://localhost:3000>
+
+```bash
+make dev
+```
+
+Or run the live-reload server on <http://localhost:8888> with _Netlify_ (λ) functions:
+
+```bash
+make netlify
 ```
 
 ## 📚 The Tech. Stack
