@@ -17,7 +17,3 @@ dev:
 .PHONY: netlify
 netlify:
 	yarn netlify
-
-.PHONY: run
-run: build
-	docker run --rm -p 8080:80 $(TAG_LATEST)
