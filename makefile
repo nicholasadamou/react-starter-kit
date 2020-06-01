@@ -21,10 +21,3 @@ netlify:
 .PHONY: run
 run: build
 	docker run --rm -p 8080:80 $(TAG_LATEST)
-
-.PHONY: publish
-publish:
-	@docker login -u $(DOCKER_USER) -p $(DOCKER_PASS)
-	docker push $(TAG_LATEST)
-	@docker tag $(TAG_LATEST) $(TAG_COMMIT)
-	docker push $(TAG_COMMIT)

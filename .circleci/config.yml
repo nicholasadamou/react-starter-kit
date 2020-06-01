@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
@@ -8,7 +8,6 @@ jobs:
       - setup_remote_docker
       - run: yarn
       - run: make build
-      - run: make publish
 
 workflows:
   version: 2
