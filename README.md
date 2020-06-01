@@ -42,6 +42,7 @@ This project uses the following technologies:
 This project uses the following CI/CD Pipeline:
 
 1. [**Travis CI**](https://travis-ci.org/nicholasadamou/react-starter-kit) - Travis is used to test whether or not this project builds successfully.
+2. [**CircleCI**](https://circleci.com/) - Continuous Integration and Delivery.
 
 ## License
 
